@@ -1,0 +1,26 @@
+beautifulsoup4
+contractions
+gensim
+ipykernel
+ipython
+jellyfish
+lxml  # Si falla, sudo apt-get install python3-lxml
+keras
+matplotlib
+negspacy
+nltk
+num2words
+numpy
+pandas==1.5.3
+plotly_express
+pyDAWG
+pyLDAvis
+spacy
+scikit-learn
+scipy
+seaborn
+sklearn_crfsuite
+stop_words
+tensorflow
+tqdm
+wordcloud
