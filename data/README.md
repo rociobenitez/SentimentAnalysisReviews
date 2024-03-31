@@ -1,8 +1,8 @@
-## Descripción de los Conjuntos de Datos
+# Descripción de los Conjuntos de Datos
 
 Este directorio contiene los datos utilizados y generados durante el proyecto. Los datos originales se obtuvieron de un archivo `.jsonl.gz` de reseñas de productos de deporte y aire libre de Amazon.
 
-## Contenido del Directorio
+## Contenido del Directorio 🗂️
 
 - `cleaned_reviews.csv`: Reseñas procesadas y limpias listas para análisis.
 - `processed_data.csv.gz`: Datos preprocesados en formato comprimido para ahorro de espacio.
@@ -13,11 +13,11 @@ Este directorio contiene los datos utilizados y generados durante el proyecto. L
 - `sample_data.csv`: Muestra inicial de datos antes del procesamiento.
 - `sample_data.parquet`: Muestra de datos en formato Parquet.
 
-## Uso de los Datos
+## Uso de los Datos 👩🏼‍💻
 
 Los archivos `.csv` pueden ser cargados directamente en pandas para análisis y modelado. Los archivos `.parquet` ofrecen una carga más rápida y un uso eficiente de la memoria. Los archivos comprimidos `.gz` pueden requerir descompresión antes del uso dependiendo de su entorno de trabajo.
 
-## Nota Sobre Grandes Archivos
+## Nota Sobre Grandes Archivos ✍🏼
 
 Debido a restricciones de tamaño en GitHub, decidimos no subir archivos que excedan los 100 MB. Por lo tanto, el archivo `Sports_and_Outdoors.jsonl.gz.zip` no se incluye en el repositorio remoto. Puede descargarse en [este enlace](https://amazon-reviews-2023.github.io/). Para los archivos grandes, considera utilizar `git-lfs` (Git Large File Storage) o proveer enlaces para su descarga desde un almacenamiento en la nube.
 
